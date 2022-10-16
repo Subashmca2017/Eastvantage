@@ -1,0 +1,496 @@
+{
+	"info": {
+		"_postman_id": "eacfac0b-5bdf-4454-9bc5-34941eaac89b",
+		"name": "Eastvantage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Address",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"first_name\": \"Harry\",\n        \"last_name\": \"Prakash\",\n        \"age\": 24,\n        \"mobile_no\": 1234567898,\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"country\": \"India\",\n        \"latitude\": 41.06374,\n        \"longitude\": 1.51681\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local_url}}/v1/address/create",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"v1",
+						"address",
+						"create"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Address",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"first_name\": \"Harry\",\n        \"last_name\": \"Prakash\",\n        \"age\": 24,\n        \"mobile_no\": 1234567898,\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"country\": \"India\",\n        \"latitude\": 41.06374,\n        \"longitude\": 1.51681\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local_url}}/v1/address/create",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"v1",
+								"address",
+								"create"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sun, 16 Oct 2022 06:43:53 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "180"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first_name\": \"Harry\",\n    \"age\": 24,\n    \"city\": \"Bangalore\",\n    \"country\": \"India\",\n    \"longitude\": 1.51681,\n    \"mobile_no\": 1234567898,\n    \"last_name\": \"Prakash\",\n    \"id\": 3,\n    \"state\": \"Karnataka\",\n    \"latitude\": 41.06374\n}"
+				}
+			]
+		},
+		{
+			"name": "Get All Address",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/v1/address/list",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"v1",
+						"address",
+						"list"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/v1/address/list",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"v1",
+								"address",
+								"list"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sun, 16 Oct 2022 06:43:58 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "539"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"first_name\": \"Arun\",\n        \"age\": 24,\n        \"city\": \"Bangalore\",\n        \"country\": \"India\",\n        \"longitude\": 2.17403,\n        \"mobile_no\": 1234567890,\n        \"last_name\": \"Menon\",\n        \"id\": 1,\n        \"state\": \"Karnataka\",\n        \"latitude\": 41.40338\n    },\n    {\n        \"first_name\": \"Prabhu\",\n        \"age\": 23,\n        \"city\": \"Bangalore\",\n        \"country\": \"India\",\n        \"longitude\": 1.87754,\n        \"mobile_no\": 1234567899,\n        \"last_name\": \"Deva\",\n        \"id\": 2,\n        \"state\": \"Karnataka\",\n        \"latitude\": 41.54961\n    },\n    {\n        \"first_name\": \"Harry\",\n        \"age\": 24,\n        \"city\": \"Bangalore\",\n        \"country\": \"India\",\n        \"longitude\": 1.51681,\n        \"mobile_no\": 1234567898,\n        \"last_name\": \"Prakash\",\n        \"id\": 3,\n        \"state\": \"Karnataka\",\n        \"latitude\": 41.06374\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Address By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/v1/address/fetch/2",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"v1",
+						"address",
+						"fetch",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Address By Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/v1/address/fetch/2",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"v1",
+								"address",
+								"fetch",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sun, 16 Oct 2022 06:44:07 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "178"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first_name\": \"Prabhu\",\n    \"age\": 23,\n    \"city\": \"Bangalore\",\n    \"country\": \"India\",\n    \"longitude\": 1.87754,\n    \"mobile_no\": 1234567899,\n    \"last_name\": \"Deva\",\n    \"id\": 2,\n    \"state\": \"Karnataka\",\n    \"latitude\": 41.54961\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Address by Dist&Coords.",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"distance_in_km\":5420,\n    \"latitude\":90.00000,\n    \"longitude\":48.99209\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local_url}}/v1/address/distance",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"v1",
+						"address",
+						"distance"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Address by Dist&Coords.",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"distance_in_km\":5420,\n    \"latitude\":90.00000,\n    \"longitude\":48.99209\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local_url}}/v1/address/distance",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"v1",
+								"address",
+								"distance"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sun, 16 Oct 2022 06:44:51 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "358"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"first_name\": \"Arun\",\n        \"age\": 24,\n        \"city\": \"Bangalore\",\n        \"country\": \"India\",\n        \"longitude\": 2.17403,\n        \"mobile_no\": 1234567890,\n        \"last_name\": \"Menon\",\n        \"id\": 1,\n        \"state\": \"Karnataka\",\n        \"latitude\": 41.40338\n    },\n    {\n        \"first_name\": \"Prabhu\",\n        \"age\": 23,\n        \"city\": \"Bangalore\",\n        \"country\": \"India\",\n        \"longitude\": 1.87754,\n        \"mobile_no\": 1234567899,\n        \"last_name\": \"Deva\",\n        \"id\": 2,\n        \"state\": \"Karnataka\",\n        \"latitude\": 41.54961\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Dummy Data Dict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/v1/address/dummy",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"v1",
+						"address",
+						"dummy"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/v1/address/dummy",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"v1",
+								"address",
+								"dummy"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sun, 16 Oct 2022 06:45:02 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "518"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"first_name\": \"Arun\",\n        \"last_name\": \"Menon\",\n        \"age\": 24,\n        \"mobile_no\": 1234567890,\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"country\": \"India\",\n        \"latitude\": 41.40338,\n        \"longitude\": 2.17403\n    },\n    {\n        \"first_name\": \"Prabhu\",\n        \"last_name\": \"Deva\",\n        \"age\": 23,\n        \"mobile_no\": 1234567899,\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"country\": \"India\",\n        \"latitude\": 41.54961,\n        \"longitude\": 1.87754\n    },\n    {\n        \"first_name\": \"Harry\",\n        \"last_name\": \"Prakash\",\n        \"age\": 24,\n        \"mobile_no\": 1234567898,\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"country\": \"India\",\n        \"latitude\": 41.06374,\n        \"longitude\": 1.51681\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Update Address Book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"first_name\": \"Harry\",\n        \"last_name\": \"Prakash\",\n        \"age\": 24,\n        \"mobile_no\": 1234567898,\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"country\": \"India\",\n        \"latitude\": 41.06374,\n        \"longitude\": 1.51681\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local_url}}/v1/address/update/3",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"v1",
+						"address",
+						"update",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Address Book",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"first_name\": \"Harry\",\n        \"last_name\": \"Prakash\",\n        \"age\": 24,\n        \"mobile_no\": 1234567898,\n        \"city\": \"Bangalore\",\n        \"state\": \"Karnataka\",\n        \"country\": \"India\",\n        \"latitude\": 41.06374,\n        \"longitude\": 1.51681\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local_url}}/v1/address/update/3",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"v1",
+								"address",
+								"update",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sun, 16 Oct 2022 06:38:41 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "182"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first_name\": \"Harry\",\n    \"age\": 24,\n    \"city\": \"Bangalore\",\n    \"country\": \"India\",\n    \"longitude\": 1.51681,\n    \"last_name\": \"Prakash\",\n    \"id\": 3,\n    \"mobile_no\": \"1234567898\",\n    \"state\": \"Karnataka\",\n    \"latitude\": 41.06374\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Address",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/v1/address/delete/3",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"v1",
+						"address",
+						"delete",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Address",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{local_url}}/v1/address/delete/3",
+							"host": [
+								"{{local_url}}"
+							],
+							"path": [
+								"v1",
+								"address",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sun, 16 Oct 2022 06:43:45 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "46"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"detail\": \"Address was deleted successfully!\"\n}"
+				}
+			]
+		}
+	]
+}
