@@ -1,0 +1,199 @@
+[2022-10-16 12:01:33,780.780] INFO [140679645770176] - Will watch for changes in these directories: ['/home/pinnacle-7/Subash/Chubbu/Custom_Developments/Eastvantage/Fast-API-CRUD-App-Live-Stream-Code-master']
+[2022-10-16 12:01:33,780.780] INFO [140679645770176] - Uvicorn running on http://127.0.0.1:8069 (Press CTRL+C to quit)
+[2022-10-16 12:01:33,781.781] INFO [140679645770176] - Started reloader process [33038] using StatReload
+[2022-10-16 12:01:34,007.007] INFO [139839426314688] - Started server process [33041]
+[2022-10-16 12:01:34,007.007] INFO [139839426314688] - Waiting for application startup.
+[2022-10-16 12:01:34,007.007] INFO [139839426314688] - Application startup complete.
+[2022-10-16 12:01:56,751.751] INFO [139839375353408] - Retrieve Address list by coords and distance!
+[2022-10-16 12:01:56,754.754] INFO [139839426314688] - 127.0.0.1:41474 - "POST /v1/address/distance HTTP/1.1" 200
+[2022-10-16 12:03:43,739.739] INFO [139839375353408] - Retrieve Address list by coords and distance!
+[2022-10-16 12:03:43,741.741] INFO [139839426314688] - 127.0.0.1:60566 - "POST /v1/address/distance HTTP/1.1" 200
+[2022-10-16 12:06:05,779.779] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:06:05,809.809] INFO [139839426314688] - Shutting down
+[2022-10-16 12:06:05,909.909] INFO [139839426314688] - Waiting for application shutdown.
+[2022-10-16 12:06:05,910.910] INFO [139839426314688] - Application shutdown complete.
+[2022-10-16 12:06:05,910.910] INFO [139839426314688] - Finished server process [33041]
+[2022-10-16 12:06:06,215.215] INFO [140115273519552] - Started server process [33375]
+[2022-10-16 12:06:06,216.216] INFO [140115273519552] - Waiting for application startup.
+[2022-10-16 12:06:06,216.216] INFO [140115273519552] - Application startup complete.
+[2022-10-16 12:06:06,470.470] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:06:06,518.518] INFO [140115273519552] - Shutting down
+[2022-10-16 12:06:06,619.619] INFO [140115273519552] - Waiting for application shutdown.
+[2022-10-16 12:06:06,619.619] INFO [140115273519552] - Application shutdown complete.
+[2022-10-16 12:06:06,619.619] INFO [140115273519552] - Finished server process [33375]
+[2022-10-16 12:06:06,901.901] INFO [140060780184000] - Started server process [33387]
+[2022-10-16 12:06:06,901.901] INFO [140060780184000] - Waiting for application startup.
+[2022-10-16 12:06:06,901.901] INFO [140060780184000] - Application startup complete.
+[2022-10-16 12:07:01,623.623] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:07:01,715.715] INFO [140060780184000] - Shutting down
+[2022-10-16 12:07:01,816.816] INFO [140060780184000] - Waiting for application shutdown.
+[2022-10-16 12:07:01,816.816] INFO [140060780184000] - Application shutdown complete.
+[2022-10-16 12:07:01,816.816] INFO [140060780184000] - Finished server process [33387]
+[2022-10-16 12:07:02,115.115] INFO [140192631701952] - Started server process [33448]
+[2022-10-16 12:07:02,116.116] INFO [140192631701952] - Waiting for application startup.
+[2022-10-16 12:07:02,116.116] INFO [140192631701952] - Application startup complete.
+[2022-10-16 12:07:02,385.385] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:07:02,417.417] INFO [140192631701952] - Shutting down
+[2022-10-16 12:07:02,518.518] INFO [140192631701952] - Waiting for application shutdown.
+[2022-10-16 12:07:02,518.518] INFO [140192631701952] - Application shutdown complete.
+[2022-10-16 12:07:02,519.519] INFO [140192631701952] - Finished server process [33448]
+[2022-10-16 12:07:02,810.810] INFO [139717287080384] - Started server process [33455]
+[2022-10-16 12:07:02,810.810] INFO [139717287080384] - Waiting for application startup.
+[2022-10-16 12:07:02,810.810] INFO [139717287080384] - Application startup complete.
+[2022-10-16 12:07:05,090.090] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:07:05,119.119] INFO [139717287080384] - Shutting down
+[2022-10-16 12:07:05,220.220] INFO [139717287080384] - Waiting for application shutdown.
+[2022-10-16 12:07:05,220.220] INFO [139717287080384] - Application shutdown complete.
+[2022-10-16 12:07:05,221.221] INFO [139717287080384] - Finished server process [33455]
+[2022-10-16 12:07:05,519.519] INFO [140342116479424] - Started server process [33467]
+[2022-10-16 12:07:05,519.519] INFO [140342116479424] - Waiting for application startup.
+[2022-10-16 12:07:05,519.519] INFO [140342116479424] - Application startup complete.
+[2022-10-16 12:08:06,996.996] INFO [140342116479424] - 127.0.0.1:48760 - "PUT /v1/address/update/100 HTTP/1.1" 404
+[2022-10-16 12:08:15,558.558] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:08:15,597.597] INFO [140342116479424] - Shutting down
+[2022-10-16 12:08:15,698.698] INFO [140342116479424] - Waiting for application shutdown.
+[2022-10-16 12:08:15,698.698] INFO [140342116479424] - Application shutdown complete.
+[2022-10-16 12:08:15,699.699] INFO [140342116479424] - Finished server process [33467]
+[2022-10-16 12:08:16,002.002] INFO [140315801166272] - Started server process [33560]
+[2022-10-16 12:08:16,003.003] INFO [140315801166272] - Waiting for application startup.
+[2022-10-16 12:08:16,003.003] INFO [140315801166272] - Application startup complete.
+[2022-10-16 12:08:17,740.740] INFO [140315801166272] - 127.0.0.1:46166 - "PUT /v1/address/update/100 HTTP/1.1" 404
+[2022-10-16 12:08:41,774.774] INFO [140315801166272] - 127.0.0.1:48310 - "PUT /v1/address/update/3 HTTP/1.1" 200
+[2022-10-16 12:09:39,574.574] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:09:39,628.628] INFO [140315801166272] - Shutting down
+[2022-10-16 12:09:39,729.729] INFO [140315801166272] - Waiting for application shutdown.
+[2022-10-16 12:09:39,729.729] INFO [140315801166272] - Application shutdown complete.
+[2022-10-16 12:09:39,730.730] INFO [140315801166272] - Finished server process [33560]
+[2022-10-16 12:09:40,017.017] INFO [140592173724096] - Started server process [33709]
+[2022-10-16 12:09:40,017.017] INFO [140592173724096] - Waiting for application startup.
+[2022-10-16 12:09:40,017.017] INFO [140592173724096] - Application startup complete.
+[2022-10-16 12:10:01,613.613] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:10:01,696.696] INFO [140592173724096] - Shutting down
+[2022-10-16 12:10:01,797.797] INFO [140592173724096] - Waiting for application shutdown.
+[2022-10-16 12:10:01,798.798] INFO [140592173724096] - Application shutdown complete.
+[2022-10-16 12:10:01,798.798] INFO [140592173724096] - Finished server process [33709]
+[2022-10-16 12:10:02,099.099] INFO [140309289939392] - Started server process [33727]
+[2022-10-16 12:10:02,099.099] INFO [140309289939392] - Waiting for application startup.
+[2022-10-16 12:10:02,100.100] INFO [140309289939392] - Application startup complete.
+[2022-10-16 12:10:02,359.359] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:10:02,402.402] INFO [140309289939392] - Shutting down
+[2022-10-16 12:10:02,503.503] INFO [140309289939392] - Waiting for application shutdown.
+[2022-10-16 12:10:02,503.503] INFO [140309289939392] - Application shutdown complete.
+[2022-10-16 12:10:02,503.503] INFO [140309289939392] - Finished server process [33727]
+[2022-10-16 12:10:02,788.788] INFO [140307134222784] - Started server process [33737]
+[2022-10-16 12:10:02,788.788] INFO [140307134222784] - Waiting for application startup.
+[2022-10-16 12:10:02,788.788] INFO [140307134222784] - Application startup complete.
+[2022-10-16 12:10:12,598.598] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:10:12,628.628] INFO [140307134222784] - Shutting down
+[2022-10-16 12:10:12,729.729] INFO [140307134222784] - Waiting for application shutdown.
+[2022-10-16 12:10:12,729.729] INFO [140307134222784] - Application shutdown complete.
+[2022-10-16 12:10:12,729.729] INFO [140307134222784] - Finished server process [33737]
+[2022-10-16 12:10:13,013.013] INFO [139662795780544] - Started server process [33752]
+[2022-10-16 12:10:13,013.013] INFO [139662795780544] - Waiting for application startup.
+[2022-10-16 12:10:13,014.014] INFO [139662795780544] - Application startup complete.
+[2022-10-16 12:10:34,365.365] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:10:34,395.395] INFO [139662795780544] - Shutting down
+[2022-10-16 12:10:34,496.496] INFO [139662795780544] - Waiting for application shutdown.
+[2022-10-16 12:10:34,497.497] INFO [139662795780544] - Application shutdown complete.
+[2022-10-16 12:10:34,497.497] INFO [139662795780544] - Finished server process [33752]
+[2022-10-16 12:10:34,796.796] INFO [140607040414144] - Started server process [33802]
+[2022-10-16 12:10:34,796.796] INFO [140607040414144] - Waiting for application startup.
+[2022-10-16 12:10:34,796.796] INFO [140607040414144] - Application startup complete.
+[2022-10-16 12:10:42,092.092] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:10:42,124.124] INFO [140607040414144] - Shutting down
+[2022-10-16 12:10:42,225.225] INFO [140607040414144] - Waiting for application shutdown.
+[2022-10-16 12:10:42,225.225] INFO [140607040414144] - Application shutdown complete.
+[2022-10-16 12:10:42,226.226] INFO [140607040414144] - Finished server process [33802]
+[2022-10-16 12:10:42,538.538] INFO [139864282186176] - Started server process [33825]
+[2022-10-16 12:10:42,538.538] INFO [139864282186176] - Waiting for application startup.
+[2022-10-16 12:10:42,538.538] INFO [139864282186176] - Application startup complete.
+[2022-10-16 12:11:19,174.174] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:11:19,177.177] INFO [139864282186176] - Shutting down
+[2022-10-16 12:11:19,277.277] INFO [139864282186176] - Waiting for application shutdown.
+[2022-10-16 12:11:19,278.278] INFO [139864282186176] - Application shutdown complete.
+[2022-10-16 12:11:19,278.278] INFO [139864282186176] - Finished server process [33825]
+[2022-10-16 12:11:19,578.578] INFO [140355215905216] - Started server process [33856]
+[2022-10-16 12:11:19,578.578] INFO [140355215905216] - Waiting for application startup.
+[2022-10-16 12:11:19,578.578] INFO [140355215905216] - Application startup complete.
+[2022-10-16 12:11:44,678.678] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:11:44,774.774] INFO [140355215905216] - Shutting down
+[2022-10-16 12:11:44,875.875] INFO [140355215905216] - Waiting for application shutdown.
+[2022-10-16 12:11:44,875.875] INFO [140355215905216] - Application shutdown complete.
+[2022-10-16 12:11:44,875.875] INFO [140355215905216] - Finished server process [33856]
+[2022-10-16 12:11:45,160.160] INFO [140608193429952] - Started server process [33911]
+[2022-10-16 12:11:45,160.160] INFO [140608193429952] - Waiting for application startup.
+[2022-10-16 12:11:45,160.160] INFO [140608193429952] - Application startup complete.
+[2022-10-16 12:11:49,199.199] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:11:49,277.277] INFO [140608193429952] - Shutting down
+[2022-10-16 12:11:49,378.378] INFO [140608193429952] - Waiting for application shutdown.
+[2022-10-16 12:11:49,378.378] INFO [140608193429952] - Application shutdown complete.
+[2022-10-16 12:11:49,379.379] INFO [140608193429952] - Finished server process [33911]
+[2022-10-16 12:11:49,664.664] INFO [139683757842880] - Started server process [33923]
+[2022-10-16 12:11:49,664.664] INFO [139683757842880] - Waiting for application startup.
+[2022-10-16 12:11:49,665.665] INFO [139683757842880] - Application startup complete.
+[2022-10-16 12:12:12,274.274] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:12:12,354.354] INFO [139683757842880] - Shutting down
+[2022-10-16 12:12:12,454.454] INFO [139683757842880] - Waiting for application shutdown.
+[2022-10-16 12:12:12,455.455] INFO [139683757842880] - Application shutdown complete.
+[2022-10-16 12:12:12,455.455] INFO [139683757842880] - Finished server process [33923]
+[2022-10-16 12:12:12,753.753] INFO [139633478332864] - Started server process [33946]
+[2022-10-16 12:12:12,753.753] INFO [139633478332864] - Waiting for application startup.
+[2022-10-16 12:12:12,754.754] INFO [139633478332864] - Application startup complete.
+[2022-10-16 12:12:15,431.431] INFO [139633478332864] - 127.0.0.1:47704 - "DELETE /v1/address/100 HTTP/1.1" 404
+[2022-10-16 12:12:52,165.165] INFO [139633427424832] - Delete address by given ID 100!
+[2022-10-16 12:12:52,168.168] INFO [139633478332864] - 127.0.0.1:34714 - "DELETE /v1/address/delete/100 HTTP/1.1" 404
+[2022-10-16 12:13:03,862.862] INFO [139633427424832] - Delete address by given ID 3!
+[2022-10-16 12:13:03,891.891] INFO [139633478332864] - 127.0.0.1:51604 - "DELETE /v1/address/delete/3 HTTP/1.1" 200
+[2022-10-16 12:13:34,570.570] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:13:34,593.593] INFO [139633478332864] - Shutting down
+[2022-10-16 12:13:34,694.694] INFO [139633478332864] - Waiting for application shutdown.
+[2022-10-16 12:13:34,694.694] INFO [139633478332864] - Application shutdown complete.
+[2022-10-16 12:13:34,694.694] INFO [139633478332864] - Finished server process [33946]
+[2022-10-16 12:13:34,986.986] INFO [140616692355520] - Started server process [34080]
+[2022-10-16 12:13:34,986.986] INFO [140616692355520] - Waiting for application startup.
+[2022-10-16 12:13:34,986.986] INFO [140616692355520] - Application startup complete.
+[2022-10-16 12:13:37,306.306] INFO [140616641488448] - Delete address by given ID 3!
+[2022-10-16 12:13:37,309.309] INFO [140616692355520] - 127.0.0.1:43766 - "DELETE /v1/address/delete/3 HTTP/1.1" 404
+[2022-10-16 12:13:45,075.075] INFO [140616692355520] - 127.0.0.1:50228 - "POST /v1/address/create HTTP/1.1" 200
+[2022-10-16 12:13:48,459.459] INFO [140616641488448] - Delete address by given ID 3!
+[2022-10-16 12:13:48,484.484] INFO [140616692355520] - 127.0.0.1:50228 - "DELETE /v1/address/delete/3 HTTP/1.1" 200
+[2022-10-16 12:13:53,667.667] INFO [140616692355520] - 127.0.0.1:35980 - "POST /v1/address/create HTTP/1.1" 200
+[2022-10-16 12:13:59,030.030] INFO [140616641488448] - Get all records from the address book!
+[2022-10-16 12:13:59,032.032] INFO [140616692355520] - 127.0.0.1:35990 - "GET /v1/address/list HTTP/1.1" 200
+[2022-10-16 12:14:07,520.520] INFO [140616641488448] - Get address by given Id!
+[2022-10-16 12:14:07,521.521] INFO [140616692355520] - 127.0.0.1:58032 - "GET /v1/address/fetch/2 HTTP/1.1" 200
+[2022-10-16 12:14:12,679.679] INFO [140616641488448] - Retrieve Address list by coords and distance!
+[2022-10-16 12:14:12,681.681] INFO [140616692355520] - 127.0.0.1:58426 - "POST /v1/address/distance HTTP/1.1" 200
+[2022-10-16 12:14:23,115.115] INFO [140616641488448] - Retrieve Address list by coords and distance!
+[2022-10-16 12:14:23,117.117] INFO [140616692355520] - 127.0.0.1:44878 - "POST /v1/address/distance HTTP/1.1" 404
+[2022-10-16 12:14:29,199.199] INFO [140616641488448] - Retrieve Address list by coords and distance!
+[2022-10-16 12:14:29,201.201] INFO [140616692355520] - 127.0.0.1:44892 - "POST /v1/address/distance HTTP/1.1" 404
+[2022-10-16 12:14:37,758.758] INFO [140616641488448] - Retrieve Address list by coords and distance!
+[2022-10-16 12:14:37,759.759] INFO [140616692355520] - 127.0.0.1:54950 - "POST /v1/address/distance HTTP/1.1" 200
+[2022-10-16 12:14:44,209.209] INFO [140616641488448] - Retrieve Address list by coords and distance!
+[2022-10-16 12:14:44,211.211] INFO [140616692355520] - 127.0.0.1:40604 - "POST /v1/address/distance HTTP/1.1" 200
+[2022-10-16 12:14:52,125.125] INFO [140616641488448] - Retrieve Address list by coords and distance!
+[2022-10-16 12:14:52,127.127] INFO [140616692355520] - 127.0.0.1:33002 - "POST /v1/address/distance HTTP/1.1" 200
+[2022-10-16 12:15:02,536.536] INFO [140616692355520] - 127.0.0.1:37140 - "POST /v1/address/dummy HTTP/1.1" 200
+[2022-10-16 12:15:09,598.598] WARNING [140679645770176] - StatReload detected changes in 'main.py'. Reloading...
+[2022-10-16 12:15:09,665.665] INFO [140616692355520] - Shutting down
+[2022-10-16 12:15:09,766.766] INFO [140616692355520] - Waiting for application shutdown.
+[2022-10-16 12:15:09,766.766] INFO [140616692355520] - Application shutdown complete.
+[2022-10-16 12:15:09,766.766] INFO [140616692355520] - Finished server process [34080]
+[2022-10-16 12:15:10,049.049] INFO [140671913701824] - Started server process [34199]
+[2022-10-16 12:15:10,049.049] INFO [140671913701824] - Waiting for application startup.
+[2022-10-16 12:15:10,049.049] INFO [140671913701824] - Application startup complete.
+[2022-10-16 12:16:02,166.166] INFO [140671913701824] - Shutting down
+[2022-10-16 12:16:02,267.267] INFO [140671913701824] - Finished server process [34199]
+[2022-10-16 12:16:02,276.276] ERROR [140671913701824] - Traceback (most recent call last):
+  File "/home/pinnacle-7/Subash/Chubbu/Custom_Developments/Eastvantage/venv/lib/python3.9/site-packages/starlette/routing.py", line 648, in lifespan
+    await receive()
+  File "/home/pinnacle-7/Subash/Chubbu/Custom_Developments/Eastvantage/venv/lib/python3.9/site-packages/uvicorn/middleware/message_logger.py", line 62, in inner_receive
+    message = await receive()
+  File "/home/pinnacle-7/Subash/Chubbu/Custom_Developments/Eastvantage/venv/lib/python3.9/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.9/asyncio/queues.py", line 166, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+[2022-10-16 12:16:02,331.331] INFO [140679645770176] - Stopping reloader process [33038]
